@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 import numpy as np
 import librosa
-import sounddevice as sd
+# import sounddevice as sd
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
 import io
