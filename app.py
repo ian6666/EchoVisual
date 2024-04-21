@@ -52,7 +52,7 @@ def animate_circular_audio_visualizer(audio_data):
     #HtmlFile="myvideo.html"
     source_code = HtmlFile.read() 
     components.html(source_code, height = 900,width=900)
-
+    st.audio(tmp_filename)
     return y, sr
 def main():
     st.title('Audio Visualizer')
