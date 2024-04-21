@@ -1,0 +1,6 @@
+numpy
+librosa
+sounddevice
+io
+tempfile
+matplotlib
