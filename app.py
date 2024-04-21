@@ -62,7 +62,6 @@ def main():
         audio_data = io.BytesIO(audio_file.read())  # Read the audio file into a BytesIO buffer
         with st.spinner('Generating visualization...'):
             y, sr = animate_circular_audio_visualizer(audio_data)
-            sd.play(y.T, sr)
 
 if __name__ == "__main__":
     main()
